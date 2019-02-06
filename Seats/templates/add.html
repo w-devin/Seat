@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12">
+      <table class="table table-hover">
+          <thead>
+              <tr>
+                  <td>#</td>
+                  <td>ID</td>
+                  <td>NAME</td>
+                  <td>FLOOR</td>
+                  <td>SEATS</td>
+                  <td>CAMPUS</td>
+              </tr>
+          </thead>
+          <tbody>
+            {% for room in rooms %}
+                <tr>
+                  <td>#</td>
+                  <td><a href="/room/{{room[0]}}">{{room[0]}}</a></td>
+                  <td>{{room[1]}}</td>
+                  <td>{{room[3]}}</td>
+                  <td>{{room[4]}}</td>
+                  <td>{{room[2]}}</td>
+                </tr>
+            {% endfor%}
+          </tbody>
+      </table>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+    <h2 class="text-center page-header">Create a new task</h2>
+<div class="col-md-offset-4 col-md-8">
+    <form class="new_task" id="new_task" action="/task" accept-charset="UTF-8" method="post">
+        <div class="form-group center-block">
+            <div class="form-group string optional">
+                <label class="string optional control-label" for="task_username">Username</label>
+                <input class="string optional form-control" type="text" name="username" id="task_username" />
+            </div>
+            <div class="form-group string optional">
+                <label class="string optional control-label" for="task_password">Password</label>
+                <input class="string optional form-control" name="password" id="task_password">
+            </div>
+            <div class="form-group string optional">
+                <label class="string optional control-label" for="task_start">Start</label>
+                <input class="string optional form-control" type="number" name="start" id="task_start" />
+            </div>
+            <div class="form-group string optional">
+                <label class="string optional control-label" for="task_end">End</label>
+                <input class="string optional form-control" type="number" name="end" id="task_end" />
+            </div>
+            <div class="form-group string optional">
+                  <label class="string optional control-label" for="task_seat">Seat</label>
+                  <input value="{{id}}" class="string optional form-control" type="number" name="seat" id="task_seat" />
+            </div>
+            <div class="form-group string optional">
+                <label class="string optional control-label" for="task_remark">Remark</label>
+                <textarea class="string optional form-control" name="remark" id="task_remark" placeholder="请输入方便识别身份的备注"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label">AutoCheck</label></div>
+            <div class="form-group">
+                <div class="radio">
+                    <label class="control-label" for="task_check1">Yes</label>
+                  <input class="form-check-input" type="radio" name="autocheck" id="task_check1" value="1" checked="true"/>
+                </div>
+                <div class="radio">
+                    <label class="control-label" for="task_check2">No</label>
+                  <input class="form-check-input" type="radio" name="autocheck" id="task_check2" value="0"/>
+                </div>
+            </div>
+        </div>
+        <input type="submit" name="commit" value="Submit" class="btn btn-primary" data-disable-with="Submitting..." />
+    </form>
+</div>
+</div>
+
+
+{% endblock %}
+
+

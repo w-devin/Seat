@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{name}}</h2>
+        <table class="table table-hover">
+              <thead>
+                  <tr>
+                    <td>#</td>
+                    <td>ID</td>
+                    <td>SEAT_ID</td>
+                    <td>SEAT_NAME</td>
+                  </tr>
+              </thead>
+              <tbody>
+                {% for seat in seats %}
+                    <tr>
+                      <td>#</td>
+                      <td><a href="/seat/new?seat_id={{seat[0]}}">{{seat[0]}}</a></td>
+                      <td>{{seat[1]}}</td>
+                      <td>{{seat[2]}}</td>
+                    </tr>
+                {% endfor%}
+              </tbody>
+        </table>
+    </div>
+</div>
+
+
+{% endblock %}

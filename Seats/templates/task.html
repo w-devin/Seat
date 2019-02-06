@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{name}}</h2>
+        <table class="table table-hover">
+              <thead>
+                  <tr>
+                    <td>#</td>
+                    <td>ID</td>
+                    <td>USERNAME</td>
+                    <td>START</td>
+                    <td>END</td>
+                    <td>SEAT</td>
+                    <td>REMARK</td>
+                      <td>CREATOR</td>
+                  </tr>
+              </thead>
+              <tbody>
+                {% for task in tasks %}
+                    <tr>
+                      <td>#</td>
+                      <td>{{task[0]}}</td>
+                      <td>{{task[1]}}</td>
+                      <td>{{task[3]}} o'clock</td>
+                      <td>{{task[4]}} o'clock</td>
+                      <td>{{task[5]}}</td>
+                      <td>{{task[6]}}</td>
+                        <td>{{task[7]}}</td>
+                      <td>
+                          <a class="btn btn-sm btn-default" href="/task/edit/{{task[0]}}">Edit</a>
+                          <a class="btn btn-sm btn-default" data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/task/delete/{{task[0]}}">Delete</a>
+                      </td>
+                    </tr>
+                {% endfor%}
+              </tbody>
+        </table>
+    </div>
+</div>
+
+
+{% endblock %}
