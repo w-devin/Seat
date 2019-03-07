@@ -29,10 +29,10 @@ def booking():
 			datas = {'token': token, 'startTime': x[3], 'endTime': x[4], 'seat': x[5], 'date': date}
 			msg_book = requests.post(freeBook_url, data = datas).json()
 
-			if x[0] < 7 and msg_book.get('status') == 'success':
+			if msg_book.get('status') == 'success':
 				logging.info('%s, %s' % (x[1], msg_book))
-			#else:
-			#	logging.warning('%s, %s, %s' % (x[1], msg_book, datas))
+			else:
+				logging.warning('%s, %s, %s' % (x[1], msg_book, datas))
 
 
 def checkin():
@@ -46,10 +46,10 @@ def checkin():
 				checkin_url = "http://seat.ujn.edu.cn/rest/v2/checkIn?token=%s" % (token)
 				msg_checkin = requests.get(checkin_url, headers = header).json()
 
-				if x[0] < 7 and msg_checkin.get('status') == 'success':
+				if msg_checkin.get('status') == 'success':
 					logging.info('%s, %s' % (x[1], msg_checkin))
-				#else:
-				#	logging.warning('%s, %s' % (x[1], msg_checkin))
+				else:
+					logging.warning('%s, %s' % (x[1], msg_checkin))
 		
 
 def clearLog():

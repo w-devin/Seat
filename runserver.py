@@ -11,11 +11,10 @@ import logging
 if __name__ == '__main__':
 
 
-	#scheduler = APScheduler()
-	#app.config.from_object('config')
-	#scheduler.init_app(app)
-	#scheduler.init_app(app)
-	#scheduler.start()
+	scheduler = APScheduler()
+	app.config.from_object('config')
+	scheduler.init_app(app)
+	scheduler.start()
 	
 	HOST = environ.get('SERVER_HOST', 'localhost')
 	try:

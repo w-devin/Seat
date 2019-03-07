@@ -1,0 +1,96 @@
+2019-03-06 05:00:05,280 - WARNING - 220151921098, {'data': None, 'message': '系统可预约时间为 05:00 ~ 23:00', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-07', 'seat': 11141, 'token': 'DL6KC176AL03065947', 'startTime': '540'}
+2019-03-06 05:00:05,746 - WARNING - 220151921150, {'data': None, 'message': '系统可预约时间为 05:00 ~ 23:00', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-07', 'seat': 11169, 'token': 'I5XK5EZ3HS03065947', 'startTime': '540'}
+2019-03-06 05:02:05,515 - WARNING - 220151921098, {'data': None, 'message': '预约失败，请尽快选择其他时段或座位', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-07', 'seat': 11141, 'token': 'LX8V9IO2F403060147', 'startTime': '540'}
+2019-03-06 05:02:05,756 - WARNING - 220151921150, {'data': None, 'message': '参数错误', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-07', 'seat': 11169, 'token': 'U11R3YAYQE03060147', 'startTime': '540'}
+2019-03-06 06:45:00,419 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 06:45:00,552 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 06:50:00,225 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 06:50:00,372 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 07:45:00,156 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 07:50:00,161 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 08:45:00,180 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 08:45:00,334 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 08:50:00,151 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 08:50:00,347 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 09:45:00,144 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 09:45:00,300 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 09:50:00,162 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 09:50:00,344 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 10:45:00,129 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 10:45:00,269 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 10:50:00,187 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 10:50:00,333 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 11:45:00,335 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 11:50:00,355 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 12:45:00,141 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 12:45:00,279 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 12:50:00,196 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 12:50:00,341 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 13:45:00,230 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 13:45:00,378 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 13:50:00,144 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 13:50:00,299 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 14:45:00,139 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 14:45:00,264 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 14:50:00,259 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 14:50:00,391 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 15:45:00,205 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 15:45:00,360 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 15:50:00,211 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 15:50:00,347 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 16:45:00,143 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 16:45:00,283 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 16:50:00,194 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 16:50:00,338 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 17:45:00,152 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 17:45:00,286 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 17:50:00,164 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 17:50:00,310 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 18:45:00,178 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 18:45:00,322 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 18:50:00,297 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 18:50:00,453 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 19:45:00,157 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 19:45:00,334 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 19:50:00,151 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 19:50:00,306 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 20:45:00,138 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 20:45:00,293 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 20:50:00,138 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 20:50:00,332 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 21:45:00,281 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 21:45:00,425 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 21:50:00,490 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-06 21:50:00,863 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 05:00:05,217 - WARNING - 220151921098, {'data': None, 'message': '系统可预约时间为 05:00 ~ 23:00', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-08', 'seat': 11141, 'token': 'F8MBOH6NS303075945', 'startTime': '540'}
+2019-03-07 05:00:05,722 - WARNING - 220151921150, {'data': None, 'message': '系统可预约时间为 05:00 ~ 23:00', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-08', 'seat': 11169, 'token': '1LGKFJM1UV03075946', 'startTime': '540'}
+2019-03-07 05:02:05,254 - WARNING - 220151921098, {'data': None, 'message': '预约失败，请尽快选择其他时段或座位', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-08', 'seat': 11141, 'token': 'E5BIK5APC803070145', 'startTime': '540'}
+2019-03-07 05:02:05,528 - WARNING - 220151921150, {'data': None, 'message': '参数错误', 'code': '1', 'status': 'fail'}, {'endTime': '1320', 'date': '2019-03-08', 'seat': 11169, 'token': 'UPRB7VLFCW03070146', 'startTime': '540'}
+2019-03-07 06:45:00,271 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 06:45:00,455 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 06:50:00,146 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 06:50:00,343 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 07:45:00,132 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 07:45:00,275 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 07:50:00,186 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 07:50:00,319 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 08:45:00,145 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 08:45:00,284 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 08:50:00,193 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 08:50:00,351 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 09:45:00,144 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 09:45:00,273 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 09:50:00,135 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 09:50:00,298 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 10:45:00,145 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 10:45:00,314 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 10:50:00,189 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 10:50:00,334 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 11:45:00,135 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 11:45:00,317 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 11:50:00,178 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 11:50:00,323 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 12:45:00,373 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 12:45:00,516 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 12:50:00,245 - WARNING - 220151921098, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}
+2019-03-07 12:50:00,505 - WARNING - 220151921150, {'data': None, 'message': '当前没有可用预约', 'code': '1', 'status': 'fail'}

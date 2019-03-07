@@ -8,7 +8,7 @@
 from sqlobject import *
 from sqlobject.sqlbuilder import *
 
-connection_str = "mysql://root:password@server:3306/Seats?driver=connector"
+connection_str = "mysql://root:1615160629@localhost:3306/Seats?driver=connector"
 connection = connectionForURI(connection_str)
 sqlhub.processConnection = connection
 
