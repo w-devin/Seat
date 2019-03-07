@@ -5,7 +5,7 @@ JOBS = [
 			'args': '',
 			'trigger': 'cron',
 			'hour': '5',
-			'minute': '0, 2',
+			'minute': '0, 1, 2',
 			'second': '5'
 		},
 		{
